@@ -379,8 +379,9 @@ class MainController extends Controller {
             $content = $content . "<tr><th scope='col'>TodoId</th><th scope='col'>Title</th><th scope='col'>Created At</th><th scope='col'>Updated At</th><th scope='col'>Is Done</th></tr>";
             $content = $content . "</thead>";
             $content = $content . "<tbody>";
+            $status = ['In Progress', 'Done'];
             foreach($rows as $row) {
-                $content = $content . "<tr><td>".$row->todoid."</td><td>".$row->title."</td><td>".$row->created_at."</td><td>".$row->updated_at."</td><td>".$row->is_done."</td><td>";
+                $content = $content . "<tr><td>".$row->todoid."</td><td>".$row->title."</td><td>".$row->created_at."</td><td>".$row->updated_at."</td><td>".$status[$row->is_done]."</td><td>";
             }
             $content = $content . "</tbody></table>";
 
