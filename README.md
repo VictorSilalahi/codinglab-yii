@@ -14,7 +14,7 @@ Aplikasi contoh untuk menambah user, login user, menambah/menghapus/mengubah dat
 php yii serve
 
 ```
-
+* silahkan akses aplikasi melalui browser dengan alamat : localhost:8080
 ## Authors
 
 Victor Silalahi 
