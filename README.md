@@ -9,7 +9,7 @@ Aplikasi contoh untuk menambah user, login user, menambah/menghapus/mengubah dat
 ### Executing program
 * Setelah seluruh file ini di clone, masuk lah ke dalam folder aplikasi ini
 * Aktifkan database terlebih dahulu, beri nama database 'yiidb' (mysql) dan script restorenya adalah : yiidb.sql (lihat di dalam folder)
-* jalankan command sbb: 
+* Setelah database sudah aktif, jalankan command sbb utk menjalankan server: 
 ```
 php yii serve
 
