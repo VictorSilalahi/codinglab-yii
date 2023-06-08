@@ -4,9 +4,7 @@
 
 $this->title = 'My Yii Application';
 
-use dosamigos\chartjs\ChartJs;
 use yii\helpers\BaseUrl;
-use app\models\Todos;
 
 ?>
 <div class="site-index">
